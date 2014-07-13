@@ -1,0 +1,129 @@
+
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+h1, h2, h3, h4, h5 ,h6, .navbar {
+  font-family: @font-family-headers;
+  font-size: @font-size-headers-large;
+}
+
+.navbar-right {
+  font-family: @font-family-sans-serif;
+  font-size: @font-size-base;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.navbar {
+  background: #7db9e8; /* Old browsers */
+  background: -moz-linear-gradient(top,  #7db9e8 0%, #56717c 0%, #035a7a 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7db9e8), color-stop(0%,#56717c), color-stop(100%,#035a7a)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #7db9e8 0%,#56717c 0%,#035a7a 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #7db9e8 0%,#56717c 0%,#035a7a 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #7db9e8 0%,#56717c 0%,#035a7a 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #7db9e8 0%,#56717c 0%,#035a7a 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#035a7a',GradientType=0 ); /* IE6-9 */
+  a {
+    color: white;
+  }
+}
+
+.jumbotron {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.navbar-brand {
+  display: block;
+  position: relative;
+  top: -10px;
+}
+.logo-line {
+  .icon-lines {
+    &:before {
+     font-size: 9px;     
+     position: relative;
+     top: -3px;
+    }
+
+  }
+  &.second {
+    position: relative;
+    left: 8px;
+  }
+  display: block;
+}
+
+.google-map {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-map iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+.front {
+  width: 100%;
+  max-width: 100%;
+}
+
+.post-18 {
+  .make-md-column(6);
+  float: none !important;
+  margin: 0 auto;
+}
+
+.footer .text-muted {
+  float: left;
+}
+
+.footer .footer-right {
+  float: right;
+}
