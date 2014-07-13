@@ -6338,7 +6338,8 @@ code {
   width: 100%;
   max-width: 100%;
 }
-.post-18 {
+.post-18,
+.post-8 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -6347,7 +6348,8 @@ code {
   margin: 0 auto;
 }
 @media (min-width: 992px) {
-  .post-18 {
+  .post-18,
+  .post-8 {
     float: left;
     width: 50%;
   }
