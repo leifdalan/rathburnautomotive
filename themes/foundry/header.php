@@ -65,7 +65,7 @@
                 'container' => false,
                 'menu_class' => 'navbar-nav nav' ) ); ?>
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="https://goo.gl/maps/LVXWJ">5458 Shilshole Ave NW Seattle, WA 98107</a></li>
+                <li><a href="https://goo.gl/maps/LVXWJ"><span class="hidden-lg hidden-md hidden-xs">Map</span><span class="hidden-sm">5458 Shilshole Ave NW Seattle, WA 98107</span></a></li>
               </ul>
 
             </div><!--/.nav-collapse -->

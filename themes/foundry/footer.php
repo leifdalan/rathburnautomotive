@@ -1,7 +1,7 @@
   </div>
   <div class="footer">
     <div class="container">
-      <p class="text-muted"><a href="https://goo.gl/maps/LVXWJ">5458 Shilshole Ave NW Seattle, WA 98107</a></p>
+      <p class="text-muted"><a href="https://goo.gl/maps/LVXWJ"><span class="hidden-xs">5458 Shilshole Ave NW Seattle, WA 98107</span><span class="hidden-lg hidden-md hidden-sm">Map</span></a></p>
       <span class="text-muted footer-right"><a href="tel:(206) 588-0796">(206) 588-0796</a>
     </div>
   </div>
